@@ -13,18 +13,18 @@ export default class LoginPage extends Component {
                 <form class="form-signin">
 
 
-                    <img src="/src/images/logo.png" />
+                    <img src="/images/logo.png" />
                     {/* <!-- <h2 class="form-signin-heading">LOGIN</h2> --> */}
                     <div class="floating-label">
                         <div class="form-group">
                             <input type="text" id="name" class="form-control" required />
                             <label class="form-control-placeholder" for="name">Username</label>
-                            <img src="/src/images/user.svg" />
+                            <img src="/images/user.svg" />
                         </div>
                         <div class="form-group">
-                            <input type="password" id="name" class="form-control" required />
-                            <label class="form-control-placeholder" for="name">Password</label>
-                            <img src="/src/images/locked.svg" />
+                            <input type="password" id="password" class="form-control" required />
+                            <label class="form-control-placeholder" for="password">Password</label>
+                            <img src="/images/locked.svg" />
                         </div>
                     </div>
                     <div class="bg">

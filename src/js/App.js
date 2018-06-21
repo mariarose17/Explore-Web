@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Routes from './js/navgation/routes';
+import Routes from './navgation/routes';
 
 class App extends Component {
   render() {
