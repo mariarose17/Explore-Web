@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import LoginPage from '../src/containers/login'
+import LoginPage from '../pages/login'
 
 export default class Routes extends Component {
     render() {

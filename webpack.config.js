@@ -1,9 +1,9 @@
-
 var config = {
-    entry: './public/index.js',
+    entry: './src/index.js',
     output: {
-        filename: 'bundle.js',
-        publicPath: '/'
+        path: __dirname + '/public',
+        publicPath: '/',
+        filename: 'bundle.js'
     },
     devServer: {
         inline: true,
