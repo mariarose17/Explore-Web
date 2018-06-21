@@ -6,9 +6,10 @@ var config = {
         filename: 'bundle.js'
     },
     devServer: {
+        contentBase: './public',
         inline: true,
         historyApiFallback: true,
-        port: 3200,
+        port: 3200
     },
     module: {
         rules: [
